@@ -14,7 +14,19 @@ function birthday()
 }
 
 birthday();
-echo  "Happy birh day Khosro:".$age;
+echo "Happy birh day Khosro:" . $age;
+
+function myFunction()
+{
+    static $num = 0;
+    echo $num;
+    $num++;
+}
+
+myFunction();
+myFunction();
+myFunction();
 ?>
+
 </body>
 </html>

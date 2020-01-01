@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="materialize.css">
+    <script src="materialize.js"></script>
     <meta charset="UTF-8">
     <title>Khash</title>
 </head>
 <body>
-<a href="Sade.php">Sade</a>
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Noon</a href="#">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="active"><a href="khash.php">Khash khash</a></li>
+            <li><a href="Sade.php">Sade</a></li>
+        </ul>
+    </div>
+</nav>
 <?php
 $konjedi = 1500;
 define('TEDAD', 10);
